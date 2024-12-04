@@ -1,105 +1,134 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
 }
 
+body{
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/47024418-vermelho-raposa-em-pe-alerta-dentro-deserto-panorama-gratis-foto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header{
+    width: 100vw;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
-    background-color: rgb(231, 129, 34);
+    background-color: rgba(0, 0, 0, .3);
+    height: 100px;
+    padding: 0 20px 0 20px;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
 }
 
 .esquerda{
     display: flex;
     flex-direction: row;
     width: 25%;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
 }
 
 .esquerda h1 {
     align-content: center;
-    color: rgb(0, 0, 0);
+    color:antiquewhite;
 }
 
 .direita h1{
-    color: rgb(12, 12, 12);
+    color:antiquewhite;
+
 }
 
-#raposa{
-    width: 25%;
-}
-
-.container img{
-    width: 100%;
-    height: 50vh;
-    object-fit:fill;
-
-    
+.direita{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    
+    flex-direction: row;
 }
 
+.container{
 
-.card_raposas{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
     width: 100%;
-    margin-top: 2rem;
-    place-items: center;
-}
-
-.card{
-    border: 1px solid;
+    height: 100vh;
+    border: 2px solid purple;
+    margin-top: 100px;
     display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 100%;
-    background: rgb(82, 82, 82);
+    flex-direction: row;
     padding: 1rem;
-    
 }
 
 
-.card:hover{
-    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
-    width: 105%;
-    height: 101%;
+.buscar ul{
+
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
-.card p{
-    font-size: 15px;
+.buscar li{
+    list-style: none;
 }
 
-.card img{
-    width: 100%;
-    border-radius: 20px;
-
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: .6s;
 }
 
-.botao_saber{
-    width: 58%;
-    padding: 9px;
-    margin: auto;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight:800 ;
-    letter-spacing: 3px; /*espaço entre as letras*/
-    color:rgb(184, 181, 183) ;  /*cor da letra*/
-    background: rgb(255, 255, 255); /*cor do botao*/
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #8b8787; /*sombra ao redor do botao*/
+a:hover{
+    border-bottom: 1px solid;
+    transition: .6s;
+    scale: 1.05;
 }
-
 
 @media(max-width: 400px){
     .Pulseiras{ 
         grid-template-columns:1fr;
     }
     
+}
+
+
+.esquerda_container{
+    width: 30%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+.direita_container{
+    width: 70%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.cards_fotos{
+    width: 100%;
+    height: 50%;
+    border: solid 2px yellow;
+    bottom: auto;
+}
+
+.info_bottom{
+    width: 100%;
+    height: 10%;
+    border: solid 2px rgb(255, 217, 0);
+    bottom: auto;
 }
