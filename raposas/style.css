@@ -34,4 +34,72 @@ header{
     height: 50vh;
     object-fit:fill;
 
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.card_raposas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 100%;
+    margin-top: 2rem;
+    place-items: center;
+}
+
+.card{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    background: rgb(82, 82, 82);
+    padding: 1rem;
+    
+}
+
+
+.card:hover{
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    width: 105%;
+    height: 101%;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.botao_saber{
+    width: 58%;
+    padding: 9px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight:800 ;
+    letter-spacing: 3px; /*espaço entre as letras*/
+    color:rgb(184, 181, 183) ;  /*cor da letra*/
+    background: rgb(255, 255, 255); /*cor do botao*/
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #8b8787; /*sombra ao redor do botao*/
+}
+
+
+@media(max-width: 400px){
+    .Pulseiras{ 
+        grid-template-columns:1fr;
+    }
+    
 }

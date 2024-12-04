@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "exercicios_desenvolvimento_web",
+			"path": ".."
+		},
+		{
+			"name": "raposas",
+			"path": "../../../../Desktop/html aula/raposas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exercicios_desenvolvimento_web"
+	}
+}
