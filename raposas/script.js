@@ -1,12 +1,6 @@
 const valor = document.getElementById("valor")
 const botao = document.getElementById("botao")
 
-<<<<<<< Updated upstream
-// botao.addEventListener('click', (e) =>{
-//     buscarDados(valor.value)
-// })
-=======
->>>>>>> Stashed changes
 
 async function buscarDados(numero) {
     try{
@@ -18,9 +12,6 @@ async function buscarDados(numero) {
         console.error('error:', error)
     }
 }
-
-<<<<<<< Updated upstream
-
 
 const lista = [{
     titulo:'testando',
@@ -78,7 +69,6 @@ function conteudoTexto(valor){
 
 }
 
-=======
 const imgs = document.getElementById("img") /*para pegar o elemento do html*/
 const img = document.querySelectorAll("#img img") /*qurryselectorall pra pelar o elemento dento do id = img*/
 
@@ -96,4 +86,3 @@ function carrossel(){
 }
 
 setInterval(carrossel,1800);
->>>>>>> Stashed changes
