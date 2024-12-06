@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -138,7 +139,8 @@ a:hover{
     width: 100%;
     height: 10%;
     border: solid 2px rgb(255, 217, 0);
-    bottom: auto;}
+    bottom: auto;
+}
 
 .carrossel{
     box-shadow: 2px 2px 4px black;
@@ -146,7 +148,6 @@ a:hover{
     height: 500px;
     width: 500px;
     position: relative;
-
 }
 
 .container_carrossel{
@@ -154,7 +155,6 @@ a:hover{
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
     flex-direction: row;
-
 }
 
 #img{
@@ -163,5 +163,57 @@ a:hover{
     width: 500px;
     position: absolute;
     top: 0;
+}
+/* 
+.card_list{
+    display: flex;
+    flex-direction: row;
+} */
+
+.card_list  .card_item{
+    color: aliceblue;
+    width: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(11px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card_list .card_item .user_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-bottom: 40px;
+    border:  3px solid white;
+    padding: 4px;
 
 }
+
+.card_list .card_item .user_profession{
+    margin: 14px 0 40px; 
+}
+
+.card_list .card_item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: rgb(175, 58, 3);
+    border-radius: 6px;
+    font-weight: 1.25rem;
+    cursor: pointer;/*define o cursor do mouse que aparece quando o ponteiro do mouse está sobre um elemento.*/
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2 ease;
+}
+
+.card_list .card_item .message-button:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+

@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- LINKING SwiperJS CSS-->
+
 </head>
 <body>
 
@@ -27,22 +29,87 @@
 
     <div class="container">
            <div class="esquerda_container">
-                <h1 id="titulo"></h1>
-                <p id="conteudo"></p>
 
-                <button id="btn_soma" onclick="conteudoTexto('+')">+</button>
-                <button id="btn_subtracao" onclick="conteudoTexto('-')">-</button>
            </div>
            <div class="direita_container">
-                <div class="cards_fotos">
-
-                </div>
-                <div class="info_bottom"></div>
+               
            </div>
 
 
     </div>
 
+    <div class="cards_fotos ">
+        <div class="container_card swiper">
+            <div class="slide_wrapper">
+                <div class="card_list swiper-wrapper">
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                    <div class="card_item swiper-slide">
+                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
+                        <h2>Curiosidades</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
+                        <button class="message-button">Saber Mais</button>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="info_bottom"></div>
     <div class="carrossel">
         <div class="container_carrossel" id="img">
             <img src="./foto raposas/transferir.webp" alt="">
@@ -52,19 +119,9 @@
         </div>
     </div>
 
-    <div class="container_card">
-        <div class="slide_wrapper">
-            <div class="card_list">
-                <div class="card_iteM">
-                    <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="script.js" defer></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js" ></script> 
+     <!--Linking swiperJS script-->>
 </body>
 </html>
