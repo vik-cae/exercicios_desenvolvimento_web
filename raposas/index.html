@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- LINKING SwiperJS CSS-->
 
 </head>
+
 <body>
 
     <header>
@@ -19,109 +20,117 @@
         <div class="direita">
             <div class="buscar">
                 <ul>
-                    <li><a href="">CURIOSIDADES</a></li>
-                    <li><a href="">FOTOS</a></li>
+                    <li><a href="#curiosidades">CURIOSIDADES</a></li>
+                    <li><a href="#fotos">FOTOS</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
 
-    <div class="container">
-           <div class="esquerda_container">
+    <div class="container_main" id="curiosidades">
+        <div class="esquerda_container">
+            <h1 id="titulo">1. Habilidade de adaptação</h1>
+            <p id="conteudo">Raposas conseguem viver em uma ampla variedade de habitats, desde florestas e campos até áreas urbanas. A raposa-vermelha, em particular, é uma das espécies de mamíferos mais amplamente distribuídas no mundo.</p>
+        </div>
+        <div class="direita_container">
 
-           </div>
-           <div class="direita_container">
-               
-           </div>
+            <div class="cards_fotos">
+                <div class="container swiper">
+                    <div class="slider-wrapper">
+                        <div class="card-list swiper-wrapper">
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/1.jpg" alt="User Image" class="user-image">
 
+                                <button class="message-button" onclick="curiosidade(0)">CURIOSIDADES</button>
 
-    </div>
-
-    <div class="cards_fotos ">
-        <div class="container_card swiper">
-            <div class="slide_wrapper">
-                <div class="card_list swiper-wrapper">
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/2.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button" onclick="curiosidade(1)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/3.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(2)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/4.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(3)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/65.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(4)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/9.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(5)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/10.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(6)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/12.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(7)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/88.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(8)">CURIOSIDADES</button>
+                            </div>
+                            <div class="card-item swiper-slide">
+                                <img src="https://randomfox.ca/images/32.jpg" alt="User Image" class="user-image">
+                            
+                                <button class="message-button"onclick="curiosidade(9)">CURIOSIDADES</button>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
                     </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
-                    <div class="card_item swiper-slide">
-                        <img src="./raposa fofa.jpg" alt="User image" class="user_image">
-                        <h2>Curiosidades</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officiis eos debitis assumenda iusto! Temporibus distinctio soluta ipsum quae a? Fugiat magni voluptas recusandae iusto eveniet dolores sint alias tempore!</p>
-                        <button class="message-button">Saber Mais</button>
-                    </div>
-
                 </div>
-
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
+                <!-- Linking SwiperJS script -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
             </div>
         </div>
+
+
     </div>
 
-    <div class="info_bottom"></div>
     <div class="carrossel">
         <div class="container_carrossel" id="img">
             <img src="./foto raposas/transferir.webp" alt="">
             <img src="./foto raposas/transferir (1).webp" alt="">
             <img src="./foto raposas/transferir (2).webp" alt="">
             <img src="./foto raposas/transferir (3).webp" alt="">
+ 
         </div>
+       
+    </div>
+    <div class="carregando"></div>
+
+    <h1>Galeria de Raposas</h1>
+    <div class="gallery" id="fotos">
     </div>
 
+    <div class="modal">
+        <img src="" id="modal_img">
+        <button id="x">X</button>
+        <div class="fundo"></div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script.js" ></script> 
-     <!--Linking swiperJS script-->>
+    <button id="loadMore">Carregar mais raposas</button>
+
+    <script src="script.js"></script>
+    <!--Linking swiperJS script-->>
 </body>
+
 </html>
